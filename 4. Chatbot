@@ -1,0 +1,9 @@
+
+
+"""
+have a simple textbox input [remember to sanitize inputs against injections]
+search in database for similar entries and identify the web of nodes it appeared in
+compare sequential order of the conversation to appearances of phrases from the database
+select mood and context for response
+
+"""

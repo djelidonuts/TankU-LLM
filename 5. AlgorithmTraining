@@ -1,0 +1,37 @@
+"""
+Game 1: Spontaneous Phrase Generation [with and without prompt]
+
+for word in lexicon:
+generate sentence
+
+
+Game 2: Connotative Association
+
+    for words in lexicon:
+    if definition.word is similar, add connotation tags or mark with synonym tags
+
+Game 3: Logical Correlation[words and phrases]
+
+    pull 2 random words from lexicon
+    if they are sequentially related, add weight to their path
+    if they are related but not sequential, place them in similar subrooms
+    if they are wholly unrelated, do nothing
+    if they are sequentially nonsensical or oxymoronic, soft ban any connections(possible exceptions for poetry)
+    if they are antonymical, assign both to antithetical subrooms
+
+    generate 2 randomized phrases(paths) from the framework
+    if they can be two parts of one idea, create path between phrases
+    if they are unrelated, do nothing
+    if they are antithetical create a disagreement tag linking the two
+
+
+Game 4: Grammar and Syntax Checks
+
+
+
+Game 5: Prompted passage generation
+
+
+
+
+"""
